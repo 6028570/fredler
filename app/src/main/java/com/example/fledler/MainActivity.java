@@ -1,4 +1,4 @@
-package com.example.fredler;
+package com.example.fledler;
 
 import androidx.appcompat.app.AppCompatActivity;
 

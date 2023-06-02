@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.fredler'
+    namespace 'com.example.fledler'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.fredler"
+        applicationId "com.example.fledler"
         minSdk 24
         targetSdk 33
         versionCode 1

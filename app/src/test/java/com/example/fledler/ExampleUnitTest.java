@@ -1,4 +1,4 @@
-package com.example.fredler;
+package com.example.fledler;
 
 import org.junit.Test;
 
