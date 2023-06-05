@@ -2,6 +2,4 @@
     <string name="app_name">flight</string>
     <string name="logo">logo</string>
     <string name="image_content_description">achtergrond</string>
-    <string name="kamers_text">kamers_text</string>
-    <string name="kamers_box">kamers_box</string>
 </resources>
