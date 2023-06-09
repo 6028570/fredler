@@ -2,4 +2,14 @@
     <string name="app_name">flight</string>
     <string name="logo">logo</string>
     <string name="image_content_description">achtergrond</string>
+    <string name="Slaapkamer">Slaapkamer</string>
+    <string name="woonkamer">Woonkamer</string>
+    <string name="keuken">Keuken</string>
+    <string name="toilet">Toilet</string>
+    <string name="garage">Garage</string>
+    <string name="badkamer">Badkamer</string>
+    <string name="instellingen">Instellingen</string>
+    <string name="taal">Taal</string>
+    <string name="nl_en">NL/EN</string>
+
 </resources>
