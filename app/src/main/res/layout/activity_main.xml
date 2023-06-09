@@ -3,22 +3,196 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#fffff"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#CCCCCC"
-        android:contentDescription="@string/image_content_description"
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="#C3A5FF"
+        app:cardCornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.92"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:ignore="ImageContrastCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.965">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/image_content_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/badkamer"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="#B4E9EB"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.965">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/image_content_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/garage"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="#B4EBB8"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardView"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.524">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="140dp"
+            android:layout_height="126dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/image_content_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/keuken"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="#EBB4B4"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.524">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="107dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/image_content_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/toilet"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="#B4C5EB"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardView2"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.08">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="159dp"
+            android:layout_height="109dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="35dp"
+            android:contentDescription="@string/image_content_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/slaapkamer"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:gravity="center"
+            android:paddingTop="150dp"
+            android:text="Your Text Here"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="#EBB4E2"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.08">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="144dp"
+            android:layout_height="122dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/image_content_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/woonkamer"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.cardview.widget.CardView>
 
     <ImageView
         android:id="@+id/imageView10"
@@ -26,14 +200,13 @@
         android:layout_height="120dp"
         android:contentDescription="@string/logo"
         android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004"
         tools:ignore="ImageContrastCheck" />
-
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

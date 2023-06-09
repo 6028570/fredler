@@ -4,7 +4,8 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.fledler.R;
+import com.example.fredler.R;
+
 
 public class MainActivity extends AppCompatActivity {
 
