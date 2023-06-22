@@ -10,6 +10,7 @@
 
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardView6"
         android:layout_width="182dp"
         android:layout_height="178dp"
         android:layout_centerInParent="true"
@@ -136,6 +137,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardView8"
         android:layout_width="182dp"
         android:layout_height="178dp"
         android:layout_centerInParent="true"

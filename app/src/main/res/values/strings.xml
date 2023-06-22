@@ -11,5 +11,8 @@
     <string name="instellingen">Instellingen</string>
     <string name="taal">Taal</string>
     <string name="nl_en">NL/EN</string>
+    <string name="alles">Alles</string>
+    <string name="lampen">lampen</string>
+
 
 </resources>
